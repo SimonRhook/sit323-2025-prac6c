@@ -4,7 +4,7 @@ Interacting with webservice in kubernetes cluster
 
 ## To run
 
-1. apply service config `kubectl get service`
+1. Verify service config `kubectl get service`
 2. Verify kubernetes deployment `kubectl get deployment`
 3. Verify pods `kubectl get pods`
 4. port forward `kubectl port-forward svc/web-calc 8080:8080`
